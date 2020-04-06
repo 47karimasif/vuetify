@@ -1,7 +1,7 @@
 <template>
   <v-app id="app">
     <Navbar />
-    <v-content class="grey lighten-4 mx-4">
+    <v-content class="mx-4">
       <router-view />
     </v-content>
   </v-app>
@@ -21,6 +21,6 @@ export default {
 
 <style scoped>
 #app {
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
 }
 </style>

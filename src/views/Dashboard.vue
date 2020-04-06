@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <h1 class="text-center subheading grey--text">This is Homepage</h1>
-    <v-container class="my-5">
+    <v-row class="justify-center">
+      <h1 class="text-center subheading grey--text d-inline-block">This is Homepage</h1>
+    </v-row>
+    <v-container class="my-5" fluid>
       <v-row class="mb-3">
         <v-tooltip top>
           <template v-slot:activator="{ on }">
